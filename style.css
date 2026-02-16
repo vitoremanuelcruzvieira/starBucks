@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    padding: 20px 100px;
+}
+
+.conteudo {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa-texto {
+    position: relative;
+    max-width: 600px;
+}
+
+h2 {
+    color: #333;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+
+span {
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+p {
+    color: #333;
+
+}
+
+button {
+    background: #017143;
+    color: #FFFFFF;
+    border-radius: 40px;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #00502f;
+}
+
+.caixa-imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-menu:hover {
+   transform: translateY(-30px);
+}
+
+.imagem-copo {
+    max-width: 340px;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 850px);
+}
